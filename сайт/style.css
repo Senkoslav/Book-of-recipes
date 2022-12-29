@@ -10,3 +10,41 @@
 	scroll-behavior: smooth;
 	font-family: 'Poppins', sans-serif;
 }
+:root{
+	--main-color: #16b978;
+	--second-color: #092b54;
+}
+section{
+	padding: 50px 10%;
+}
+img{
+	width: 100%;
+}
+*::selection{
+	color: fff;
+	background: var(--main-color);
+}
+header{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	right: 0;
+	z-index: 1000;
+	display: flex;
+	align-items: center;	
+	justify-content: space-between;
+	padding: 10px 10%;
+	transition: 0.2s;
+}
+.logo{
+	display: flex;
+	align-items: center;
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #000000;
+}
+.logo img{
+	width: 35px;
+	margin-right: 10px;
+	
+}
