@@ -33,7 +33,7 @@ header{
 	display: flex;
 	align-items: center;	
 	justify-content: space-between;
-	padding: 10px 10%;
+	padding: 15px 10%;
 	transition: 0.2s;
 }
 .logo{
@@ -109,4 +109,29 @@ header{
 	letter-spacing: 2px;
 	color: #fff;
 	background: var(--main-color);
+}
+.about{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: url(img/about-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.about h1{
+	font-size: 2.5rem;
+	color: #fff;
+	margin-bottom: 2rem;
+	text-transform: uppercase;
+}
+.about-container{
+	background: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	border-radius: 10px;
+	border-top:6px solid var(--main-color);
+	padding: 20px;
+	gap: 2rem;	
 }
