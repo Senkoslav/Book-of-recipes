@@ -46,5 +46,13 @@ header{
 .logo img{
 	width: 35px;
 	margin-right: 10px;
-	
+}
+.navbar{
+	display: flex;
+}
+.navbar a{
+	font-size: 1rem;
+	padding: 10px 20px;
+	color: #000000;
+	font-weight: 500;
 }
