@@ -246,8 +246,8 @@ header.active .navbar a{
 	border-radius: 0.5rem;
 }
 .box img{
-	width: 200px;
-	height: 200px;
+	width: 175px;
+	height: 175px;
 	border-radius: 50%;
 	object-fit: cover;
 	border: 2px solid var(--second-color);
