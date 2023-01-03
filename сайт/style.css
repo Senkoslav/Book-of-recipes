@@ -344,5 +344,8 @@ form .btn{
 }
 form .btn:hover{
 	background: var(--second-color);
-	
+}
+.copyright{
+	padding: 20px;
+	text-align: center;
 }
