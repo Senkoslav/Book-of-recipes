@@ -343,9 +343,38 @@ form .btn{
 	border: none;
 }
 form .btn:hover{
-	background: var(--second-color);
+	background: var(--main-color);
 }
 .copyright{
 	padding: 20px;
 	text-align: center;
+}
+/*Поиск*/
+#search-icon{
+	font-size: 24px;
+	cursor: pointer;
+	color: var(--main-color)
+}
+.search-box{
+	position: absolute;
+	top: 110%;
+	right: 0;
+	left: 0;
+	background:var(--main-color);
+	box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
+	border: 1px solid var(--second-color);
+	border-radius: 0.5rem;
+	clip-path: circle(0% at 100% 0%);
+}
+.search-box.active{
+	clip-path: circle(144% at 100% 0%);
+	transition: 0.4s;
+}
+.search-box input{
+	width: 100%;
+	padding: 20px;
+	border: none;
+	outline: none;
+	background: transparent;
+	font-size: 1rem;
 }
