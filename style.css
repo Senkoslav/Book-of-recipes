@@ -349,6 +349,50 @@ form .btn:hover{
 	padding: 20px;
 	text-align: center;
 }
+
+.big_text{
+	position: relative;
+	top: 50px;
+	font-size: 4rem;
+}
+
+.block-top{
+	display: flex;
+	flex-direction: row;
+}
+
+.recipe img{
+	width: 40%;
+	height: 450px;
+	border: 5px solid var(--main-color);
+	border-radius: 10px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.recipe span{
+	font-size: 2rem;
+	position: relative;
+	left: 120px;
+}
+
+.recipe ul{
+	margin: -40px 0px;
+	font-size: 1.5rem;
+}
+
+.amount{
+	font-size: 5px;
+	margin-left: 30px;
+	color: var(--second-color);
+}
+
+.block-bottom{
+	position: relative;
+	left: -100px;
+	width: 97%;
+}
+
 /*Поиск*/
 #search-icon{
 	font-size: 24px;
