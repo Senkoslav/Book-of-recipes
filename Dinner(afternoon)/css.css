@@ -21,7 +21,7 @@ input{
  
 }
 li{
-    display flex;
+    display: flex;
     list-style: none;
     margin-right:200px ;
 }
