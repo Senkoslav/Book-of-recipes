@@ -46,6 +46,15 @@ header.active .logo{
 header.active .navbar a{
 	color: #fff;
 } 
+
+.flag{
+	position: relative;
+	top: 5px;
+	width: 7%;
+	height: 7%;
+	border-radius: 5px;
+}
+
 .logo{
 	display: flex;
 	align-items: center;
@@ -208,6 +217,7 @@ header.active .navbar a{
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
+	transition: 0.5s;
 }
 .shop-img img:hover{
 	transform: scale(1.1);
@@ -335,12 +345,14 @@ form textarea{
 	height: 150px;
 }
 form .btn{
+	font-size: 10px;
 	max-width: 100px;
 	background: var(--main-color);
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
 	border: none;
+	transition: 0.2s;
 }
 form .btn:hover{
 	background: var(--main-color);
