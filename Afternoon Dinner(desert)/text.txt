@@ -1,5 +1,0 @@
-это сделал Ростик
-его работа: папки Afternoon Dinner(Desert),
-						Breakfast
-						Dinner
-						Dinner(Afternoon)
