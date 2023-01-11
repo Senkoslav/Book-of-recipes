@@ -46,6 +46,15 @@ header.active .logo{
 header.active .navbar a{
 	color: #fff;
 } 
+
+.flag{
+	position: relative;
+	top: 5px;
+	width: 7%;
+	height: 7%;
+	border-radius: 5px;
+}
+
 .logo{
 	display: flex;
 	align-items: center;
@@ -208,6 +217,7 @@ header.active .navbar a{
 	height: 100%;
 	object-fit: cover;
 	object-position: center;
+	transition: 0.5s;
 }
 .shop-img img:hover{
 	transform: scale(1.1);
@@ -234,6 +244,7 @@ header.active .navbar a{
 	color: #fff;
 	background: var(--main-color);
 	border-radius: 4px 0 4px 0;
+	transition: 0.1s;
 }
 .shop-box .bxs-heart:hover{
 	background: var(--second-color);
@@ -335,12 +346,14 @@ form textarea{
 	height: 150px;
 }
 form .btn{
+	font-size: 10px;
 	max-width: 100px;
 	background: var(--main-color);
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: bold;
 	border: none;
+	transition: 0.2s;
 }
 form .btn:hover{
 	background: var(--main-color);
@@ -349,48 +362,34 @@ form .btn:hover{
 	padding: 20px;
 	text-align: center;
 }
-
-.big_text{
-	position: relative;
-	top: 50px;
-	font-size: 4rem;
+/*Поиск*/
+#search-icon{
+    font-size: 24px;
+    cursor: pointer;
+    color: var(--main-color)
 }
-
-.block-top{
-	display: flex;
-	flex-direction: row;
+.search-box{
+    position: absolute;
+    top: 110%;
+    right: 0;
+    left: 0;
+    background:var(--main-color);
+    box-shadow: 4px 4px 20px rgb(15 54 55 / 10%);
+    border: 1px solid var(--second-color);
+    border-radius: 0.5rem;
+    clip-path: circle(0% at 100% 0%);
 }
-
-.recipe img{
-	width: 40%;
-	height: 450px;
-	border: 5px solid var(--main-color);
-	border-radius: 10px;
-	object-fit: cover;
-	object-position: center;
+.search-box.active{
+	clip-path: circle(144% at 100% 0%);
+	transition: 0.4s;
 }
-
-.recipe span{
-	font-size: 2rem;
-	position: relative;
-	left: 120px;
-}
-
-.recipe ul{
-	margin: -40px 0px;
-	font-size: 1.5rem;
-}
-
-.amount{
-	font-size: 5px;
-	margin-left: 30px;
-	color: var(--second-color);
-}
-
-.block-bottom{
-	position: relative;
-	left: -100px;
-	width: 97%;
+.search-box input{
+	width: 100%;
+	padding: 20px;
+	border: none;
+	outline: none;
+	background: transparent;
+	font-size: 1rem;
 }
 @media (max-width: 1100px){
 	.home-text h1 {

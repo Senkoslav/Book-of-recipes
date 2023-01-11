@@ -14,8 +14,7 @@ window.onscroll = () => {
 	navbar.classList.remove('active')
 }
 
-//поиск
-document.querySelector('#search-icon').onclick = () => {
-  search.classList.toggle('active');
-  menu.classList.remove('active')
-}
+ document.querySelector('#search-icon').onclick = () => {
+	search.classList.toggle('active');
+	menu.classList.remove('active')
+ }
