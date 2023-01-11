@@ -244,6 +244,7 @@ header.active .navbar a{
 	color: #fff;
 	background: var(--main-color);
 	border-radius: 4px 0 4px 0;
+	transition: 0.1s;
 }
 .shop-box .bxs-heart:hover{
 	background: var(--second-color);
